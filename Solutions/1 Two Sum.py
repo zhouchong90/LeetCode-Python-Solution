@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
 		
-		#Hash Map to store the number and id
+        #Hash Map to store the number and id
         m = {}
         for i,n in enumerate(nums,1):
             if (target - n) in m:
